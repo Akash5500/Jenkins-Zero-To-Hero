@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: akash5500/ultimate-cicd:3
+        image: akash5500/ultimate-cicd:replaceImageTag
         ports:
         - containerPort: 8080
